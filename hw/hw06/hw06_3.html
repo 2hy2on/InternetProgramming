@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>hw06</title>
+        <link type="text/css" rel="stylesheet" href="06_cssstyle_external.css"></link>
+        <style>
+            h2{
+                text-align: center;
+                font-weight:bold;
+            }
+            #login{
+                text-align: center;
+                border: 2px grey solid;
+                margin: 100px 400px;
+                padding: 10px 20px 10px 20px;
+                margin-bottom: 45px;
+            }
+            /* if screen-width < 1020px */
+                @media(max-width:1020px) {
+                #login {
+                    display:none;
+                }
+                }
+            .login{
+                font-size: 30px;
+                font-family:"굴림";
+            }
+            .membership{
+                font-family:"굴림";
+                text-align: center;
+                font-size: 15px;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="logo">
+            <a href="./hw06.html"><img src="./img/logo.jpg" width="280px" height="190px"></a>
+        </div>
+        <div id="header">
+            <div id="menu1">
+                <a href="../hw07/hw07.html" style="color: white"> About</a>&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="./hw06_1.html" style="color: white"> Dessert</a>&nbsp;&nbsp;&nbsp;&nbsp; 
+               <a href="./hw06_2.html" style="color: white">  Coffee&Drink</a>
+               &nbsp;&nbsp;&nbsp;&nbsp;<a href="#footer" style="color: white">Contact</a>
+            </div>
+            <div id="menu2">
+                <a href="./hw06_3.html" style="color: white">로그인 </a>| 
+                <a href="../hw07/hw07_1.html" style="color: white">장바구니</a> | 고객센터
+            </div>
+        </div>
+        <br><br><br><br>
+        &emsp;&emsp;&emsp;&emsp;&emsp;<span class="login">로그인</span>
+        <br><center><hr width=90%></hr></center>
+        <div id="login">
+                <p>&nbsp;&nbsp;&nbsp;아이디 <input type="text" name="id" size="25" required></p>
+                <p>비밀번호 <input type="password" name="password" size="25" 
+                    palceholder="비밀번호" required></p>
+                    <p></p>
+                <input type="submit" value="로그인">
+                <input type="reset" value="다시작성"> 
+        </div>
+        <div class="membership">※회원가입을 하시면 다양하고 
+        <br>특별한 혜택이 준비되어 있습니다.</div>
+        <br><br><br><br><br>
+        <div id="footer">
+            <footer>
+            <h1>02-1234-5678</h1>
+            MON-FRI 10:00 ~ 17:00
+            <br>SAT/SUN/HOLIDAY OFF
+            <br><br>sweetdessert@naver.com
+        </footer>
+    </div>
+    </body>
+ </html>

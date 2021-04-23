@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link type="text/css" rel="stylesheet" href="06_cssstyle_external.css"></link>
+        <title>hw06</title>
+        <style>
+           .dessert{
+                font-size: 30px;
+                font-family:"굴림"
+                }
+            #columns{
+                /* column-count */
+                column-width: 250px; 
+            }
+            #columns figure img {
+                width: 245px;
+                opacity: 0.5;
+            }
+            #columns figure img:hover{
+                opacity: 1;
+            }
+            #columns figure{
+                display: inline-block;
+                margin: 0;
+                margin-bottom: 20px;
+                margin-left: 10px;
+                border: 1px solid rgba(0,0,0,0.2);
+                padding: 10px;
+                box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+            }
+
+            #columns figure figcaption{
+                border: 1px solid rgba(0,0,0,0.2);
+                padding: 10px 5px 10px 5px;
+                margin-top: 10px;
+            }
+            .red{
+                color: rgb(241, 78, 78);
+                font-size: 13px;
+                font-family:"굴림";
+            }
+            .explain{
+                color: #5c5b5c;
+                font-size: 15px;
+                font-family:'Times New Roman', Times, serif
+            }
+            .choco{
+                font-size: 14px;
+            }
+            #columns figure a {
+                 text-decoration: none;
+                 color: black;
+            }
+        </style>
+    </head>
+    <body>
+        <hr>
+        <div id="logo">
+            <a href="./hw06.html"><img src="./img/logo.jpg" width="280px" height="190px"></a>
+        </div>
+        <div id="header">
+            <div id="menu1">
+                <a href="../hw07/hw07.html" style="color: white"> About</a>&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="./hw06_1.html" style="color: white"> Dessert</a>&nbsp;&nbsp;&nbsp;&nbsp; 
+                <a href="./hw06_2.html" style="color: white"> Coffee&Drink</a>
+                &nbsp;&nbsp;&nbsp;&nbsp;<a href="#footer" style="color: white">Contact</a>
+            </div>
+            <div id="menu2">
+                <a href="./hw06_3.html" style="color: white">로그인 </a>| 
+                <a href="../hw07/hw07_1.html" style="color: white">장바구니</a> | 고객센터
+            </div>
+        </div>
+        <br><br><br><br>
+        &emsp;&emsp;&emsp;&emsp;&emsp;<span class="dessert">Dessert 전체</span>
+        <br><center><hr width=90%></hr></center>
+        <br><br><br><br>
+        <div id="columns">
+        <figure>
+            <a href="../hw07/hw07_2.html">
+            <img src="./img/muf.jpg">
+            <figcaption>초코머핀 130g X 12ea<br>
+                <span class="explain">촉촉한 초콜릿과 초콜릿 칩의 만남</span><br>
+                <span class="red">2,500원</span></a></figcaption>
+        </figure>
+        <figure>
+            <a href="../hw07/hw07_3.html">
+            <img src="./img/redvel.jpg">
+            <figcaption>레드벨벳 케이크 90g X 5ea<br>
+                <span class="explain">촉촉한 와인시트와 고소한 버터크림<br></span>
+                <span class="red">12,600원</span></a></figcaption>
+        </figure>
+        <figure>
+            <a href="../hw07/hw07_4.html">
+            <img src="./img/bread.jpg">
+            <figcaption>블루베리 베이글 110g X 6ea<br>
+                <span class="explain">블루베리의 상큼함과 베이글의 만남<br></span>
+                <span class="red">5,300원</span></a></figcaption>
+        </figure>
+        <figure>
+            <a href="../hw07/hw07_5.html">
+            <img src="./img/cake.jpg">
+            <figcaption><span class="choco">밀크크레이프케이크(조각) 80g x 5ea<br></span>
+                <span class="explain">카페의 시그니처<br></span>
+                <span class="red">12,650원</span></a>
+            </figcaption>
+        </figure>
+        <figure>
+            <a href="../hw07/hw07_6.html">
+            <img src="./img/choco.jpg">
+                <figcaption><span class="choco">초코크레이프케이크(조각) 85g x 5ea<br></span>
+                    <span class="explain">진한 초코의 풍미와 크레이프의 
+                        <br>부드러움</span>
+                    <span class="red"><br>13,200원</span></a>
+                </figcaption>
+        </figure>
+        <figure>
+            <a href="../hw07/hw07_7.html">
+            <img src="./img/crok.jpg">
+            <figcaption>크로크무슈 170gX16ea <br>
+                <span class="explain">부드러운 식빵에 햄과 치즈 가득</span>
+                <span class="red"><br>51,500원</span></a>
+            </figcaption>
+        </figure>
+        <figure>
+            <a href="../hw07/hw07_8.html">
+            <img src="./img/cheese.jpg">
+            <figcaption>치즈 머핀 130g X 12ea<br>
+                <span class="explain">촉촉한 머핀과 진한 체다치즈의 맛</span>
+                <span class="red"><br>22,500원</span></a>
+            </figcaption>
+        </figure>
+        <figure>
+            <a href="../hw07/hw07_9.html">
+            <img src="./img/scorn.jpg">
+            <figcaption>건포도스콘 90g X 6ea<br>
+                <span class="explain">건포도의 달콤함과 스콘의 조화</span>
+                <span class="red"><br>9,500원</span></a>
+            </figcaption>
+        </figure>
+        <figure>
+            <a href="../hw07/hw07_10.html">
+            <img src="./img/honey.jpg">
+            <figcaption>허니버터브레드 190g X 18ea<br>
+                <span class="explain">바삭함과 촉촉함의 달콤한 만남</span>
+                <span class="red"><br>39,000원</span></a>
+            </figcaption>
+        </figure>
+    </div>
+            <br><br><br><br><br>
+        <div id="footer">
+            <footer>
+            <h1>02-1234-5678</h1>
+            MON-FRI 10:00 ~ 17:00
+            <br>SAT/SUN/HOLIDAY OFF
+            <br><br>sweetdessert@naver.com
+        </footer>
+        </div>
+        <audio src="./audio/''Funny Dream'' - Royalty-free Music - Background Music.mp3" autoplay loops controls></audio>
+    </body>
+ </html>
+

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>hw06</title>
+        <link type="text/css" rel="stylesheet" href="./06_cssstyle_external.css"></link>
+        <style>
+
+            h2{
+                text-align: center;
+                font-weight:bold;
+            }
+            #best figure{
+                display: inline-block;
+                border: 1px solid rgba(0,0,0,0.2);
+                margin: 0;
+                padding:10px;
+                margin-bottom: 20px;
+                box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+                margin-left: 100px;
+            }
+            #cake{
+                width: 245px;
+            }
+            #best figure figcaption{
+                border: 1px solid rgba(0,0,0,0.2);
+                padding: 10px;
+                margin-top: 10px;
+                font-size: 13px;
+            }
+            .red{
+                color: rgb(241, 78, 78);
+                font-size: 13px;
+                font-family:"굴림";
+            }
+            .explain{
+                color: #5c5b5c;
+                font-size: 15px;
+                font-family:'Times New Roman', Times, serif
+            }
+            #best figure img:hover{
+                opacity: 1;
+            }
+            #best figure img{
+                opacity: 0.6;
+            }
+            #best figure a{
+                text-decoration: none;
+                color: black;
+            }
+
+        </style>
+    </head>
+    <body>
+    <div>
+        <div id="logo">
+            <a href="./hw06.html"><img src="./img/logo.jpg" width="280px" height="190px"></a>
+            <br>로고를 누르면 메인으로 돌아가요.</div>
+        <div id="header">
+            <div id="menu1">
+                <a href="../hw07/hw07.html" style="color: white"> About</a>&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="./hw06_1.html" style="color: white"> Dessert</a>&nbsp;&nbsp;&nbsp;&nbsp; 
+               <a href="./hw06_2.html" style="color: white"> Coffee&Drink</a>
+               &nbsp;&nbsp;&nbsp;&nbsp;<a href="#footer" style="color: white">Contact</a>
+            </div>
+            <div id="menu2">
+                <a href="./hw06_3.html" style="color: white">로그인 </a>| 
+                <a href="../hw07/hw07_1.html" style="color: white">장바구니</a> | 고객센터
+            </div>
+        </div>
+        <img src="./img/pinklk.jpg" width="100%" height="400px">
+        <br><br><h2>&num;BEST3&num;</h2>
+        <br><br><div id="best">
+            <figure>
+                <a href="../hw07/hw07_4.html">
+                <img id="cake" src="./img/bread.jpg">
+                <figcaption>블루베리 베이글 110g X 6ea<br>
+                    <span class="explain">블루베리의 상큼함과 베이글의 만남<br></span>
+                    <span class="red">5,300원</span></a>
+                </figcaption>
+            </figure>
+            <figure>
+                <a href="../hw07/hw07_5.html">
+                <img id="cake" src="./img/cake.jpg">
+                <figcaption>밀크크레이프케이크(조각) 80g x 5ea<br>
+                    <span class="explain">카페의 시그니처<br></span>
+                    <span class="red">12,650원</span></a>
+                </figcaption>
+            </figure>
+            <figure>
+                <a href="../hw07/hw07_6.html">
+                <img id="cake" src="./img/choco.jpg">
+                    <figcaption>초코크레이프케이크(조각) 85g x 5ea<br>
+                        <span class="explain">진한 초코의 풍미와 크레이프의 
+                            <br>부드러움</span>
+                        <span class="red"><br>13,200원</span></a>
+                    </figcaption>
+            </figure>
+        </div>
+        <br><br><br><br><br>
+        <div id="footer">
+            <footer>
+            <h1>02-1234-5678</h1>
+            MON-FRI 10:00 ~ 17:00
+            <br>SAT/SUN/HOLIDAY OFF
+            <br><br>sweetdessert@naver.com
+        </footer>
+    </div>
+    </body>
+</html>

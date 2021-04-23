@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+}
+#header{
+    float: left;
+    width:100%;
+    background: #F27078;
+    font-family: "돋움";
+}
+#logo{
+    text-align: center;
+}
+#menu1{
+    float: left;
+    font-size: 18px;
+    color: #ffffff;
+    margin-left: 100px;
+    line-height: 48px;
+}
+#menu2{
+    float: right;
+    font-size: 13px;
+    color: #ffffff;
+    margin-top: 15px;
+    margin-right: 50px;
+    font-family:굴림; 
+}
+@media(max-width:700px){
+    #header{
+        display:none;
+    }
+    #logo{
+        display:none;
+    }
+}
+#footer{
+font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+border: 3px solid  #F27078;
+border-left:none;
+border-right:none;
+padding: 15px;
+}
